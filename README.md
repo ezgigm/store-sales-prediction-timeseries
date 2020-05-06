@@ -31,7 +31,7 @@ The data is obtained from [Kaggle competition](https://www.kaggle.com/c/walmart-
 
 **Metric:**
 
-The metric of the competition is weighted mean absolute error (WMAE). Weight of the error changes when it is holiday. It can be found in detail in [here](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/overview/evaluation).
+The metric of the competition is weighted mean absolute error (WMAE). Weight of the error changes when it is holiday. It can be found in detail [here](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/overview/evaluation).
 
 ***Understanding, Cleaning and Exploring Data:*** The first challange of this data is that there are too much seasonal effects on sales. Some departments have higher sales in some seasons but on average the best departments are different. To analyze these effects, data divided weeks of the year and also holiday dates categorized.
 
@@ -55,7 +55,50 @@ More detailed finding can be found in notebooks with explorations.
 
 **Future Improvements:**
 
--
+- Data will be made more stationary with different techniques.
+- More detailed feature engineering and feature selection will be done. 
+- More data can be found to observe holiday effects on sales and different holidays will be added like Easter, Halloween and Come Back to School times. 
+- Markdown effects on model will be improved according to department sales.
+- Different models can be build for special stores or departments.
+
+# Repository Guide
+
+**CSV Files:**
+ 
+ The raw data files which obtained by Kaggle can be found ;
+ 
+ https://github.com/ezgigm/store-sales-prediction-timeseries/tree/master/Raw%20Data
+ 
+ The cleaned data can be found ;
+ 
+ https://github.com/ezgigm/store-sales-prediction-timeseries/blob/master/clean_data.csv
+ 
+ **Notebooks:**
+ 
+ Every step for data understanding, cleaning, exploring and feature engineering can be found in ;
+ 
+ https://github.com/ezgigm/store-sales-prediction-timeseries/blob/master/STEP1_Cleaning_and_EDA.ipynb
+ 
+ Random Forest Models with Feature Importance can be found in ;
+ 
+ https://github.com/ezgigm/store-sales-prediction-timeseries/blob/master/STEP2_Random_Forest_Regressor.ipynb
+ 
+ Time series models with can be found in ;
+ 
+ https://github.com/ezgigm/store-sales-prediction-timeseries/blob/master/STEP3_Modeling_ARIMA_and_ExponentialSmoothing.ipynb
+ 
+ **Presentation:**
+ 
+ Presentation can be found from here in .pdf format ;
+ 
+ 
+
+  
+# Resources 
+
+For all details of the competition;
+
+https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/overview
 
 
 
