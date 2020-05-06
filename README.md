@@ -60,6 +60,7 @@ More detailed finding can be found in notebooks with explorations.
 - More data can be found to observe holiday effects on sales and different holidays will be added like Easter, Halloween and Come Back to School times. 
 - Markdown effects on model will be improved according to department sales.
 - Different models can be build for special stores or departments.
+- Market basket analysis can be added to data and guess upselling products of departments
 
 # Repository Guide
 
