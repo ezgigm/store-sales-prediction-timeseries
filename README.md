@@ -17,7 +17,7 @@ My aim in this project is to build a model which predicts sales of the stores. W
 
 **Data:**
 
-The data is obtained from [Kaggle competition](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/data). There are mainly weekly sales for 45 stores and 82 departments of Walmart in different areas. Detailed more data features and merged external data can be found in [STEP1_Cleaning_and_EDA notebook] in this repo. ***
+The data is obtained from [Kaggle competition](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/data). There are mainly weekly sales for 45 stores and 82 departments of Walmart in different areas. Detailed more data features and merged external data can be found in [STEP1_Cleaning_and_EDA notebook](https://github.com/ezgigm/store-sales-prediction-timeseries/blob/master/STEP1_Cleaning_and_EDA.ipynb) in this repo.
 
 **Plan:**
 
